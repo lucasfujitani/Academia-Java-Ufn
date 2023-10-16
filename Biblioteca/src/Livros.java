@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Livros {
+public class Livros implements Imprimivel {
     private String titulo;
     private String autor;
     private String isbn;
@@ -41,7 +41,7 @@ public class Livros {
     }
 
 
-    public String exibirInfo() {
+    public String imprimir() {
         String statusEmprestado = emprestado ? "Emprestado" : "Disponível";
         String info = "Título: " + titulo + "\nAutor: " + autor + "\nISBN: " + isbn + "\nStatus: " + statusEmprestado;
         return info;

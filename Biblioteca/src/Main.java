@@ -28,7 +28,7 @@ public class Main {
 
                 System.out.println("\nLivros encontrados com o título \"" + tituloBuscado + "\":");
                 for (Livros livro : livrosEncontrados) {
-                    System.out.println(livro.exibirInfo());
+                    System.out.println(livro.imprimir());
                 }
 
                 // Emprestar um livro (livro3)
@@ -43,14 +43,14 @@ public class Main {
                 List<Livros> todosLivros = biblioteca.listarLivros();
                 for (Livros livro : todosLivros) {
                     System.out.println("================");
-                    System.out.println(livro.exibirInfo());
+                    System.out.println(livro.imprimir());
                 }
 
                 // Listar os livros emprestados
                 System.out.println("\nLista de livros emprestados:");
                 List<Livros> livrosEmprestados = biblioteca.listarLivrosEmprestados();
                 for (Livros livro : livrosEmprestados) {
-                    System.out.println(livro.exibirInfo());
+                    System.out.println(livro.imprimir());
                 }
             }
         }
