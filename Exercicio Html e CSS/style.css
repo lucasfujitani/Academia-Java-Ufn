@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#total1 {
+    margin: 0 auto;
+    width: 50%;
+    margin: 0 25%;
+    float: left;
+}
+
+#d1 {
+    margin-top: -5px;
+    background-color: blue;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#d2 {
+    margin-top: 5px;
+    background-color: red;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#d3 {
+    margin-top: 5px;
+    background-color: green;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#d4 {
+    margin-top: 5px;
+    background-color: purple;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#total2 {
+    margin: 0 25%;
+
+    width: 50%;
+    float: left;
+}
+
+
+.d5 {
+    background-color: blue;
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    margin-right: 40%;
+    text-align: center;
+}
+
+.d6 {
+    background-color: purple;
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+    text-align: center;
+
+}
+
+.d7 {
+    background-color: red;
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: left;
+    margin-top: 25%;
+    text-align: center;
+
+}
+
+.d8 {
+    background-color: green;
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+    margin-top: 25%;
+    text-align: center;
+
+}
+
+.total3 {
+    margin: 0 25%;
+    width: 50%;
+    float: left;
+}
+
+.total3 div {
+    padding: 3% 0 3% 0;
+    border-radius: 100%;
+}
+
+table {
+    margin-left: 1%;
+    padding: 0;
+    border: 3px solid green;
+    background-color: gray;
+    color: yellow;
+    width: 30%;
+}
+
+th {
+    font-size: 20px;
+    padding: 5% 0 5% 10%;
+    text-align: left;
+    margin: 0;
+    border: 3px solid white;
+}
+
+span:hover {
+    color: gray;
+    background-color: yellow;
+}
+
+.total {
+    margin: 0 auto;
+
+    width: 50%;
+    margin: 0 25%;
+    float: left;
+}
+
+
+.total4 {
+    color: white;
+    background-color: #b8c4ac;
+    width: 100%;
+    float: left;
+}
+
+img {
+    margin: 1%;
+    float: left;
+}
