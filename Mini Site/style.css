@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+body {
+    background-image: url("/Dirt_background_BE1.webp")
+}
+
+nav {
+
+    text-align: left;
+    height: 51px;
+    background-color: #202020;
+    color: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: #3d3938;
+
+}
+
+nav h1 {
+    font-size: 40px;
+    margin-left: 30px;
+    text-shadow: 1px, 2px, 2px, #3d3938;
+}
+
+nav table {
+    height: 100%;
+    float: right;
+    background-color: #3c8527;
+    border: 1px solid #52a535;
+
+}
+
+nav td {
+    border: 1px solid #52a535;
+    color: #aaa19d;
+    text-decoration: none;
+    text-transform: none;
+    text-decoration-line: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.rodape {
+
+    border: 2px solid #52a535;
+    background-color: #3c8527;
+    width: 200px;
+    float: left;
+    margin: 0 42%;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: #2c631d;
+}
+
+nav td :hover {
+    background-color: #2c631d83;
+
+}
+
+h1 {
+    text-shadow: 2px 2px black
+}
+
+p {
+    text-shadow: 2px 2px black
+}
+
+form {
+    border-radius: 10%;
+    border: 2px solid #52a535;
+    margin: 0 auto;
+    background-color: #2c631d7a;
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.dados {
+    border-radius: 10px;
+    border: 2px solid #52a535;
+    margin: 0 auto;
+    background-color: #2c631d7a;
+}
+
+select {
+    color: black;
+}
+
+option {
+    color: black;
+}
+
+#submit {
+    color: black;
+}
