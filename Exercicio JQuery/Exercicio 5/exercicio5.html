@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    Informe o seu nome:
+    <input type="text" id="nomeInput"><br><br>
+    Informe o sua idade:
+    <input type="text" id="idadeInput"><br><br>
+    <button id="clickar">Mostrar mensagem</button><br><br>
+
+    <p id="campoMensagem"></p>
+    <script>
+
+        $("#clickar").click(() => {
+            var nome = $("#nomeInput").val();
+            var idade = parseInt($("#idadeInput").val());
+
+            if (idade < 18) {
+                var mensagem = nome + " é menor de idade";
+
+            } else {
+                var mensagem = nome + " é maior de idade";
+
+            }
+
+            $("#campoMensagem").text(mensagem);
+        });
+    </script>
+</body>
+
+</html>

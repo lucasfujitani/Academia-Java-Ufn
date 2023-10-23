@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    Informe o seu nome:
+    <input type="text" id="nomeInput"><br><br>
+    Informe o sua idade:
+    <input type="text" id="idadeInput"><br><br>
+    <button id="clickar">Mostrar mensagem</button>
+
+    <p id="campoMensagem"></p>
+    <script>
+
+        /*    function mostrarMensage() {
+            var nome = document.getElementById("nomeInput").value;
+            var idade = document.getElementById("idadeInput").value;
+
+            var mensagem = nome + " tem " + idade + " anos.";
+            document.getElementById("campoMensagem").textContent = mensagem
+        }
+        */
+
+        $("#clickar").click(() => {
+            let nome = $("#nomeInput").val();
+            let idade = $("#idadeInput").val();
+            let mensagem = nome + " tem " + idade + " anos."
+            $("#campoMensagem").text(mensagem)
+        })
+    </script>
+</body>
+
+</html>
