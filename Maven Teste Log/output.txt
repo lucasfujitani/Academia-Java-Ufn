@@ -1,1 +1,2 @@
 [2023-11-09 16:08:00.550] Número arredondado: 3.14
+[2023-11-09 16:19:59.953] Número arredondado: 3.14
