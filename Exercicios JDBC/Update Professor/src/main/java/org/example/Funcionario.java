@@ -121,7 +121,7 @@ public class Funcionario {
         try (Connection conn = this.Database.connect();
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(SQL)){
-            rs.next();
+             rs.next();
             departamento_id = rs.getInt(1);
         } catch (SQLException e) {
             System.out.println(e.getMessage());
