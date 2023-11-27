@@ -15,6 +15,8 @@ public class Produto {
     private String nome;
     private double valor;
 
+    public Produto() {
+    }
 
     public Produto(int id, String nome, double valor) {
         this.id = id;

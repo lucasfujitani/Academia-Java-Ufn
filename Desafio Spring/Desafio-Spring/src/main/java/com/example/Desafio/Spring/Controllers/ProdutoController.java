@@ -38,4 +38,21 @@ public class ProdutoController {
         return ResponseEntity.ok(novoProduto);
     }
 
-}
+        @PutMapping("/{id}")
+        public ResponseEntity<Produto> updateProduto(@PathVariable int id, @RequestBody Produto produto) {
+            Produto produtoAtualizado = produtoService.updateProduto(id, produto);
+            if (produtoAtualizado != null) {
+                return ResponseEntity.ok(produtoAtualizado);
+            } else {
+                return ResponseEntity.notFound().build();
+            }
+        }
+
+
+        @DeleteMapping("/{id}")
+        public ResponseEntity<Void> deleteProduto(@PathVariable int id) {
+            produtoService.deleteProduto(id);
+            return ResponseEntity.noContent().build();
+        }
+    }
+
